@@ -6,7 +6,6 @@ on:
     branches:
       - master
     paths-ignore:
-      - .github/workflows/update_license.yml
       - "README.md"
       - "LICENSE.md"
       - "tsconfig.json"
