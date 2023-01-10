@@ -5,7 +5,7 @@ const lightCodeTheme = require("prism-react-renderer/themes/github")
 const darkCodeTheme = require("prism-react-renderer/themes/dracula")
 
 const organizationName = "exyleio"
-const projectName = "exyleio"
+const projectName = "exyleio-docs"
 const iconPath = "img/logos-icons/icon.png"
 
 /** @type {import('@docusaurus/types').Config} */
