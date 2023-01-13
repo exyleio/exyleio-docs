@@ -37,3 +37,8 @@
    ```
    ./tool.py run docs
    ```
+
+For vscode users, it is recommended to use the
+[multi-root workspaces](https://code.visualstudio.com/docs/editor/workspaces#_multiroot-workspaces)
+feature by clicking `File > Open Workspace from File...` in the tool bar and
+opening the [workspace file](https://github.com/exyleio/exyleio/blob/master/exyleio.code-workspace).
