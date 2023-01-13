@@ -7,24 +7,15 @@ This is the documentation for the
 
 ## Getting started
 
-1. Clone the repository and open it
+1. [Setup Exyle.io workspace](/docs/contribution-guides/developers/setting-up)
 
-   ```
-   git clone https://github.com/exyleio/exyleio-api.git
-   ```
-
-   ```
-   cd exyleio-api
-   ```
-
-2. [Setup Docker](/docs/contribution-guides/developers/docker)
-
-3. Create a firebase project if you haven't already,
+2. Create a firebase project if you haven't already,
    [generate](https://console.firebase.google.com/u/0/project/_/settings/serviceaccounts/adminsdk)
-   and download a service account key and place it inside the `app` directory
-   as `serviceAccountKey,json`. Beware, **THIS FILE MUST REMAIN PRIVATE**.
+   and download a service account key and place it inside the `exyleio-api/app`
+   directory as `serviceAccountKey,json`.
+   Beware, **THIS FILE MUST REMAIN PRIVATE**.
 
-4. Start a local development server
+3. Start a local development server
 
    - http://127.0.0.1/v1 - API
    - http://127.0.0.1:4000 - Firebase emulation suite
@@ -33,7 +24,7 @@ This is the documentation for the
      instance
 
    ```
-   ./run.sh
+   ./tool.py run api
    ```
 
 ## Testing

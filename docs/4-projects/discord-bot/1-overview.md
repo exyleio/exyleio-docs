@@ -8,35 +8,24 @@ repository.
 
 ## Getting started
 
-1. Clone the repository and open it
+1. [Setup Exyle.io workspace](/docs/contribution-guides/developers/setting-up)
 
-   ```
-   git clone https://github.com/exyleio/exyleio-discord-bot.git
-   ```
-
-   ```
-   cd exyleio-discord-bot
-   ```
-
-2. [Setup Docker](/docs/contribution-guides/developers/docker) and install
-   [Node.JS](https://nodejs.org) 16.6.0+
-
-3. [Create a discord bot](https://discordjs.guide/preparations/setting-up-a-bot-application.html).
-   You must also enable all Privileged Gateway Intents.
+2. [Create a discord bot](https://discordjs.guide/preparations/setting-up-a-bot-application.html)
+   if you haven't already. You must also enable all Privileged Gateway Intents.
 
    ![](/img/privileged-gateway-intents.png)
 
-4. Create `.env` file
+3. Create `.env` file inside the `exyleio-discord-bot` directory.
 
    ```dosini
    DISCORD_BOT_TOKEN=<DISCORD_BOT_TOKEN>
    DISCORD_BOT_ID=<DISCORD_BOT_ID>
    ```
 
-5. Start the bot
+4. Start the bot
 
    ```
-   ./run.sh
+   ./tool.sh run discord-bot
    ```
 
 ## Learning

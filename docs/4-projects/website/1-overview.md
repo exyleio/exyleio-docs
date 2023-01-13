@@ -11,32 +11,22 @@ The domain will change to https://web.exyle.io in the future.
 
 ## Getting started
 
-1. Clone the repository and open it
+1. [Setup Exyle.io workspace](/docs/contribution-guides/developers/setting-up)
 
-   ```
-   git clone https://github.com/exyleio/exyleio-web.git
-   ```
-
-   ```
-   cd exyleio-web
-   ```
-
-2. [Setup Docker](/docs/contribution-guides/developers/docker) and install
-   [Node.JS](https://nodejs.org)
-
-3. Create a firebase project if you haven't already.
+2. Create a firebase project if you haven't already.
 
    - Copy `firebaseConfig` you got from the the setup process and paste it in
-     [`src/lib/constants.ts`](https://github.com/exyleio/exyleio-web/blob/master/src/lib/constants.ts).
+     [`exyleio-web/src/lib/constants.ts`](https://github.com/exyleio/exyleio-web/blob/master/src/lib/constants.ts).
      You can see the code again in the
      [Project settings](https://console.firebase.google.com/project/_/settings/general/web)
      (select your project).
 
    - [generate](https://console.firebase.google.com/u/0/project/_/settings/serviceaccounts/adminsdk)
-     and download a service account key as `serviceAccountKey,json`.
+     and download a service account key and place it inside the
+     `exyleio-web/app` directory as `serviceAccountKey,json`.
      Beware, **THIS FILE MUST REMAIN PRIVATE**.
 
-4. Create `.env` file
+3. Create `.env` file and place it inside the `exyleio-web` directory
 
    - set `PUBLIC_USE_PRODUCTION_API` to `false` if you want to use your own API
      server hosted locally.
@@ -45,13 +35,13 @@ The domain will change to https://web.exyle.io in the future.
    PUBLIC_USE_PRODUCTION_API=true
    ```
 
-5. Start a local development server
+4. Start a local development server
 
    - http://127.0.0.1:5173 - Website
    - http://127.0.0.1:4000 - Firebase Emulator Suite
 
    ```
-   ./run.sh
+   ./tool.sh run web
    ```
 
 ## Learning

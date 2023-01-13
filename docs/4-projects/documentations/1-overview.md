@@ -8,22 +8,12 @@ repository.
 
 ## Getting started
 
-1. Clone the repository and open it
+1. [Setup Exyle.io workspace](/docs/contribution-guides/developers/setting-up)
+
+2. Start a local development server at http://127.0.0.1:3000
 
    ```
-   git clone https://github.com/exyleio/exyleio.git
-   ```
-
-   ```
-   cd exyleio
-   ```
-
-2. Install [Node.JS](https://nodejs.org)
-
-3. Start a local development server at http://127.0.0.1:3000
-
-   ```
-   ./run.sh
+   ./tool.sh run docs
    ```
 
 ## Learning
