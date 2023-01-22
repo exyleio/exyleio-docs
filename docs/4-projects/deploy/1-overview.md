@@ -45,8 +45,10 @@ It is used to deploy and manage Exyle.io related services.
    and download a service account key as `serviceAccountKey,json`.
    Beware, **THIS FILE MUST REMAIN PRIVATE**.
 
-6. Start a local development server at http://localhost (same as
-   http://localhost:80)
+6. Start a local development server at http://127.0.0.1
+
+If you stop here, the site will only work with HTTP. To support HTTPS, you need
+to create an SSL certificate. In our case, we use AWS Certificate Manager (ACM).
 
 ## Learning
 
@@ -54,4 +56,3 @@ Minimum required skills to contribute to this project:
 
 - GitHub action
 - Docker
-- Nginx
