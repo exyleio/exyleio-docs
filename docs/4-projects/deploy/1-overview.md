@@ -3,7 +3,7 @@
 ## Introduction
 
 This is the documentation for the
-[exyleio-scripts](https://github.com/exyleio/exyleio-scripts)
+[exyleio-deploy](https://github.com/exyleio/exyleio-deploy)
 repository.
 
 It is used to deploy and manage Exyle.io related services.
@@ -17,11 +17,11 @@ It is used to deploy and manage Exyle.io related services.
 2. Clone the repository and open it
 
    ```
-   git clone https://github.com/exyleio/exyleio-scripts.git
+   git clone https://github.com/exyleio/exyleio-deploy.git
    ```
 
    ```
-   cd exyleio-scripts
+   cd exyleio-deploy
    ```
 
 3. Navigate to the `master-server` directory
