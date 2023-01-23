@@ -42,7 +42,7 @@ It is used to deploy and manage Exyle.io related services.
 
 5. Create a firebase project if you haven't already,
    [generate](https://console.firebase.google.com/u/0/project/_/settings/serviceaccounts/adminsdk)
-   and download a service account key as `serviceAccountKey,json`.
+   and download a service account key as `serviceAccountKey.json`.
    Beware, **THIS FILE MUST REMAIN PRIVATE**.
 
 6. Start a local development server at http://127.0.0.1
