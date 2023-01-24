@@ -6,19 +6,10 @@ title: Overview
 
 ## Introduction
 
-The Exyle.io online infrastructure is a complex, intertwined collection of
-different components that powers the entire game by connecting users with each
-other and managing their data. This looks simple enough on the surface, but
-there are many technical challenges people are not usually aware of such as
-seamlessly scaling the servers depending on the load, protecting the servers
-from cyber attacks, managing backups and recovering from one when needed, making
-the services crash-tolerant, efficiently organizing all the data, and balancing
-everything for the minimum operation cost. And believe or not, that's just the
-tip of the iceberg.
-
-In this document, we'll try to unravel this information from a developer's
-point of view with the goal of understanding where different component exists
-and how they fit with each other.
+The Exyle.io online infrastructure is a collection of different components that
+powers the entire game by connecting users with each other and managing their
+data. In this document, we'll try to understand how the system works from a
+developer's point of view with the goal of knowing what exists where and why.
 
 Below is a simplified diagram of the said system.
 
